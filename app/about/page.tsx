@@ -10,38 +10,51 @@ export const metadata: Metadata = {
 
 const experience = [
   {
-    period: "2022 — Present",
-    role: "Senior Full Stack Developer",
-    company: "TechCorp Inc.",
+    period: "2024 — Present",
+    role: "Analyst Programmer",
+    company: "Sun Life Global Solutions",
     description:
-      "Lead development of enterprise applications serving millions of users. Architected microservices infrastructure and mentored junior developers.",
-    tech: ["React", "Node.js", "AWS", "PostgreSQL"],
+      "Design and code software and databases technically worked in Chinese data. Absorbed by the company because of good performance and indemand skill",
+    tech: ["Oracle SQL", "Shell scripting", "Informatica PowerCenter", "IDMC"],
   },
   {
-    period: "2020 — 2022",
-    role: "Full Stack Developer",
-    company: "StartupXYZ",
+    period: "2022 — 2024",
+    role: "Analyst Programmer",
+    company: "Vertere Global Solutions Inc.",
     description:
-      "Built and maintained multiple web applications from scratch. Implemented CI/CD pipelines and improved deployment efficiency by 60%.",
-    tech: ["Next.js", "TypeScript", "MongoDB", "Docker"],
+      "Design and code software and databases technically worked in Chinese data. Contractual and designate in Sun Life Global Solutions",
+    tech: ["Oracle SQL", "Shell scripting", "Informatica PowerCenter", "IDMC"],
   },
   {
-    period: "2018 — 2020",
-    role: "Frontend Developer",
-    company: "Digital Agency Co.",
+    period: "2022 — 2022",
+    role: "Associate Software Engineer",
+    company: "Integratr Corp",
     description:
-      "Developed responsive web applications for various clients. Collaborated with designers to implement pixel-perfect UI components.",
-    tech: ["React", "JavaScript", "SCSS", "Redux"],
+      "Built inhouse Website and goverment website using VueJS and Laravel",
+    tech: ["Vue JS", "Laravel", "Postman", "WordPress", "Bootstrap"],
+  },
+  {
+    period: "2021 — 2022",
+    role: "Website Builder",
+    company: "Philippine Bible Worldwide Institute",
+    description: "Built and maintained their website using WordPress.",
+    tech: ["HTML", "CSS", "WordPress", "Bootstrap"],
+  },
+  {
+    period: "2019 — 2020",
+    role: "IT Admin Staff",
+    company: "Honda Cars Cavite",
+    description: "Full time Hardware, Software and Network support.",
+    tech: ["Software", "Hardware", "Network", "Social Media Admin"],
   },
 ];
 
 const education = [
   {
-    period: "2014 — 2018",
+    period: "2014 — 2019",
     degree: "B.S. Computer Science",
-    institution: "University of Technology",
-    description:
-      "Graduated with honors. Specialized in software engineering and web technologies.",
+    institution: "Cavite State University Main Campus",
+    description: "Specialized in software engineering and web technologies.",
   },
 ];
 
