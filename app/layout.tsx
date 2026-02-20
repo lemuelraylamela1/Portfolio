@@ -7,9 +7,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lemuel Ray Lamela | Full Stack Developer",
+  title: "Lemuel Ray Lamela | Web Developer",
   description:
-    "Portfolio of Lemuel Ray Lamela - Full Stack Developer specializing in building exceptional digital experiences",
+    "Portfolio of Lemuel Ray Lamela - Web Developer specializing in building exceptional digital experiences",
   generator: "v0.app",
   icons: {
     icon: [

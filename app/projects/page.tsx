@@ -9,13 +9,22 @@ export const metadata: Metadata = {
 };
 
 const projects = [
+  // {
+  //   title: "E-Commerce Platform",
+  //   description:
+  //     "A full-stack e-commerce solution with real-time inventory management, payment processing via Stripe, and an admin dashboard for order management.",
+  //   tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Prisma"],
+  //   github: "https://github.com",
+  //   live: "https://example.com",
+  //   featured: true,
+  // },
   {
-    title: "E-Commerce Platform",
+    title: "Job Application Tracker",
     description:
-      "A full-stack e-commerce solution with real-time inventory management, payment processing via Stripe, and an admin dashboard for order management.",
-    tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Prisma"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "A Job Application Tracker Kanban Board that helps users organize applications across stages like Applied, Interview, and Offer using an intuitive drag-and-drop interface.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
+    github: "https://github.com/lemuelraylamela1/Job-Application-Tracker",
+    live: "https://job-application-tracker-lem.vercel.app/",
     featured: true,
   },
   {

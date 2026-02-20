@@ -16,12 +16,19 @@ const skills = [
 
 const featuredProjects = [
   {
-    title: "E-Commerce Platform",
+    title: "Job Application Tracker",
     description:
-      "A full-stack e-commerce solution with real-time inventory management and payment processing.",
-    tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
+      "A Job Application Tracker Kanban Board that helps users organize applications across stages like Applied, Interview, and Offer using an intuitive drag-and-drop interface.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
     link: "/projects",
   },
+  //  {
+  //   title: "E-Commerce Platform",
+  //   description:
+  //     "A full-stack e-commerce solution with real-time inventory management and payment processing.",
+  //   tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
+  //   link: "/projects",
+  // },
   {
     title: "AI Dashboard",
     description:
