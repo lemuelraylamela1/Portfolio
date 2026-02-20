@@ -80,11 +80,10 @@ export default function AboutPage() {
               </h1>
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  I&apos;m a passionate full-stack developer based in San
-                  Francisco with over 6 years of experience in building web
-                  applications. My journey in tech started with a curiosity
-                  about how things work on the internet, and it has evolved into
-                  a career dedicated to creating meaningful digital experiences.
+                  I&apos;m a passionate Web developer based in Cavite. My
+                  journey in tech started with a curiosity about how things work
+                  on the internet, and it has evolved into a career dedicated to
+                  creating meaningful digital experiences.
                 </p>
                 <p>
                   I specialize in building accessible, performant, and scalable
@@ -93,10 +92,8 @@ export default function AboutPage() {
                   project I work on delivers real value.
                 </p>
                 <p>
-                  When I&apos;m not coding, you can find me exploring new
-                  technologies, contributing to open-source projects, or sharing
-                  knowledge with the developer community through blog posts and
-                  talks.
+                  My other skills are related to Informatica Power Center,
+                  Oracle, Shell scripting and other ETL tools.
                 </p>
               </div>
             </div>
