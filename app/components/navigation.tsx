@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { cn } from "../lib/utils";
 
+const resumeUrl = "./lemuel-ray-lamela-resume.pdf";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
@@ -45,6 +46,18 @@ export function Navigation() {
                 </Link>
               </li>
             ))}
+
+            {/* Resume Download */}
+            <li>
+              <a
+                href={resumeUrl}
+                download
+                className="text-sm font-medium px-4 py-2 rounded-md
+                 bg-primary text-primary-foreground
+                 hover:opacity-90 transition">
+                Download Resume
+              </a>
+            </li>
           </ul>
 
           {/* Mobile Menu Button */}
@@ -95,6 +108,17 @@ export function Navigation() {
                 </Link>
               </li>
             ))}
+            <li>
+              <a
+                href={resumeUrl}
+                download
+                onClick={() => setIsOpen(false)}
+                className="text-sm font-medium inline-block px-4 py-2 rounded-md
+               bg-primary text-primary-foreground
+               hover:opacity-90 transition">
+                Download Resume
+              </a>
+            </li>
           </ul>
         )}
       </nav>

@@ -4,13 +4,13 @@ import { Footer } from "./components/footer";
 import Image from "next/image";
 
 const skills = [
-  "JavaScript",
+  "Oracle SQL",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
-  "Python",
-  "PostgreSQL",
+  "Informatica Powercenter",
+  "MongoDB",
   "Tailwind CSS",
 ];
 
