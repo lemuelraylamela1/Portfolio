@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Navigation } from "../components/navigation";
 import { Footer } from "./../components/footer";
 import type { Metadata } from "next";
@@ -9,15 +10,6 @@ export const metadata: Metadata = {
 };
 
 const projects = [
-  // {
-  //   title: "E-Commerce Platform",
-  //   description:
-  //     "A full-stack e-commerce solution with real-time inventory management, payment processing via Stripe, and an admin dashboard for order management.",
-  //   tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Prisma"],
-  //   github: "https://github.com",
-  //   live: "https://example.com",
-  //   featured: true,
-  // },
   {
     title: "Job Application Tracker",
     description:
@@ -26,6 +18,7 @@ const projects = [
     github: "https://github.com/lemuelraylamela1/Job-Application-Tracker",
     live: "https://job-application-tracker-lem.vercel.app/",
     featured: true,
+    image: "/jat.png",
   },
   {
     title: "AI-Powered Dashboard",
@@ -35,6 +28,7 @@ const projects = [
     github: "https://github.com",
     live: "https://example.com",
     featured: true,
+    image: "/under-maintenance.png",
   },
   {
     title: "Real-Time Collaboration Tool",
@@ -44,6 +38,7 @@ const projects = [
     github: "https://github.com",
     live: "https://example.com",
     featured: true,
+    image: "/under-maintenance.png",
   },
   {
     title: "Task Management App",
@@ -136,17 +131,30 @@ export default function ProjectsPage() {
                   className={`grid lg:grid-cols-2 gap-8 items-center ${
                     index % 2 === 1 ? "lg:flex-row-reverse" : ""
                   }`}>
-                  {/* Project Image Placeholder */}
                   <div
                     className={`relative aspect-video rounded-xl overflow-hidden bg-card border border-border/50 ${
                       index % 2 === 1 ? "lg:order-2" : ""
                     }`}>
+                    {/* Show image if present */}
+                    {project.image ? (
+                      <Image
+                        src={project.image}
+                        alt={project.title}
+                        height={1000}
+                        width={1000}
+                        className="absolute inset-0 w-full h-full object-full z-50"
+                      />
+                    ) : (
+                      // Otherwise show number overlay
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <span className="text-4xl font-bold text-muted-foreground/50">
+                          0{index + 1}
+                        </span>
+                      </div>
+                    )}
+
+                    {/* Gradient overlay on top */}
                     <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-[var(--gradient-end)]/20" />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-4xl font-bold text-muted-foreground/50">
-                        0{index + 1}
-                      </span>
-                    </div>
                   </div>
 
                   {/* Project Info */}
