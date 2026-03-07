@@ -31,10 +31,10 @@ const experience = [
     company: "Integratr Corp",
     description:
       "Built inhouse Website and goverment website using VueJS and Laravel",
-    tech: ["Vue JS", "Laravel", "Postman", "WordPress", "Bootstrap"],
+    tech: ["Vue JS", "Laravel", "Postman", "WordPress(Elementor)", "Bootstrap"],
   },
   {
-    period: "2021 — 2022",
+    period: "2021 — 2021",
     role: "Website Builder",
     company: "Philippine Bible Worldwide Institute",
     description: "Built and maintained their website using WordPress.",
