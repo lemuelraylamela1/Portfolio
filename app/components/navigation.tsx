@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { cn } from "../lib/utils";
 
-const resumeUrl = "./lemuel-ray-lamela-resume.pdf";
+const resumeUrl = "./lemuel-resume.pdf";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },

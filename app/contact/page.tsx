@@ -9,8 +9,8 @@ import { useState } from "react";
 const contactInfo = [
   {
     label: "Email",
-    value: "lemuellamela123@gmail.com",
-    href: "lemuellamela123@gmail.com",
+    value: "lemuelraylameladev@gmail.com",
+    href: "lemuelraylameladev@gmail.com",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
