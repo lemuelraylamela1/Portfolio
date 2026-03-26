@@ -21,14 +21,14 @@ const projects = [
     image: "/jat.png",
   },
   {
-    title: "AI-Powered Dashboard",
+    title: "Wedding Planner App",
     description:
-      "Analytics dashboard powered by machine learning for business intelligence insights. Features real-time data visualization and predictive analytics.",
-    tech: ["React", "Python", "TensorFlow", "D3.js", "FastAPI"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "A comprehensive tool designed to help couples plan and manage every detail of their wedding day. Organize timelines, track tasks, manage vendors and guests, monitor budgets, and ensure nothing is forgotten — all in one intuitive app. Perfect for keeping your wedding organized, stress-free, and on schedule.",
+    tech: ["Next JS", "Tailwind CSS", "Typescript", "MongoDB"],
+    github: "https://github.com/lemuelraylamela1/Wedding-Planner-App",
+    live: "https://wedding-planner-app-ph.vercel.app/",
     featured: true,
-    image: "/under-maintenance.png",
+    image: "/wedding-app.png",
   },
   {
     title: "Real-Time Collaboration Tool",

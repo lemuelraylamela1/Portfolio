@@ -30,10 +30,10 @@ const featuredProjects = [
   //   link: "/projects",
   // },
   {
-    title: "AI Dashboard",
+    title: "Wedding Planner App",
     description:
-      "Analytics dashboard powered by machine learning for business intelligence insights.",
-    tech: ["React", "Python", "TensorFlow", "D3.js"],
+      "A comprehensive tool designed to help couples plan and manage every detail of their wedding day. Organize timelines, track tasks, manage vendors and guests, monitor budgets, and ensure nothing is forgotten — all in one intuitive app. Perfect for keeping your wedding organized, stress-free, and on schedule.",
+    tech: ["Next JS", "Tailwind CSS", "Typescript", "MongoDB"],
     link: "/projects",
   },
   {
