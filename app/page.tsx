@@ -97,13 +97,13 @@ export default function HomePage() {
                 <div className="relative w-96 h-96">
                   <div className="absolute inset-0 bg-gradient-to-r from-primary to-[var(--gradient-end)] rounded-full opacity-20 blur-2xl animate-pulse" />
                   <div className="absolute inset-4 bg-gradient-to-br from-primary/30 to-[var(--gradient-end)]/30 rounded-full border border-primary/20" />
-                  <div className="absolute inset-8 bg-card rounded-full border border-border flex items-center justify-center">
+
+                  <div className="absolute inset-8 bg-card rounded-full border border-border flex items-center justify-center overflow-hidden">
                     <Image
-                      src="/assets/my-profile.png"
+                      src="/assets/lem-dp.png"
                       alt="Profile"
-                      width={320}
-                      height={320}
-                      className="rounded-full object-cover"
+                      fill
+                      className="object-cover"
                       priority
                     />
                   </div>
