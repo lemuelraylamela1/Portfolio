@@ -37,10 +37,10 @@ const featuredProjects = [
     link: "/projects",
   },
   {
-    title: "Collaboration Tool",
+    title: "Appointment Booking System",
     description:
-      "Real-time collaboration platform for teams with video conferencing and document sharing.",
-    tech: ["Next.js", "WebRTC", "Socket.io", "Redis"],
+      "A modern appointment booking system for health clinics that lets patients easily find doctors, view available time slots, and schedule visits in just a few clicks.",
+    tech: ["Next JS", "Tailwind CSS", "Typescript", "MongoDB"],
     link: "/projects",
   },
 ];

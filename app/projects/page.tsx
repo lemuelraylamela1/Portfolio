@@ -31,12 +31,12 @@ const projects = [
     image: "/wedding-app.png",
   },
   {
-    title: "Real-Time Collaboration Tool",
+    title: "Appointment Booking System",
     description:
-      "A collaboration platform for teams with video conferencing, document sharing, and real-time editing capabilities using WebRTC and Socket.io.",
-    tech: ["Next.js", "WebRTC", "Socket.io", "Redis", "MongoDB"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "A modern appointment booking system for health clinics that lets patients easily find doctors, view available time slots, and schedule visits in just a few clicks. It streamlines clinic operations with real-time scheduling, patient management, and automated confirmations—making healthcare access faster, simpler, and more organized for both patients and staff.",
+    tech: ["Next JS", "Tailwind CSS", "Typescript", "MongoDB"],
+    github: "https://github.com/lemuelraylamela1/Appointment-Booking-System",
+    live: "https://appointment-booking-system-clinic.vercel.app/",
     featured: true,
     image: "/under-maintenance.png",
   },
