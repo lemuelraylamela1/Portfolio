@@ -38,14 +38,15 @@ const projects = [
     github: "https://github.com/lemuelraylamela1/Appointment-Booking-System",
     live: "https://appointment-booking-system-clinic.vercel.app/",
     featured: true,
-    image: "/under-maintenance.png",
+    image: "/APS.png",
   },
   {
     title: "Task Management App",
     description:
-      "A Kanban-style task management application with drag-and-drop functionality, team collaboration features, and deadline tracking.",
-    tech: ["React", "TypeScript", "Node.js", "PostgreSQL"],
-    github: "https://github.com",
+      "Task Manager is a simple web app that demonstrates full CRUD functionality. Users can add, view, update, and delete tasks while learning how a frontend connects to backend APIs and a database in a clean, practical project.",
+    tech: ["Next JS", "TypeScript", "Tailwind CSS", "MongoDB"],
+    live: "https://task-management-app-red-nu.vercel.app/",
+    github: "https://github.com/lemuelraylamela1/Task-Management-App",
     featured: false,
   },
   {
