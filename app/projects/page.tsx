@@ -52,10 +52,10 @@ const projects = [
   {
     title: "Weather Dashboard",
     description:
-      "A responsive weather application featuring location-based forecasts, interactive maps, and severe weather alerts.",
+      "A responsive weather dashboard built with Next.js and Tailwind CSS that fetches real-time weather data using the Fetch API from Open‑Meteo (no API key required). Users can search any city to view current temperature, wind speed, and weather conditions with a clean glassmorphism UI, icons, and smooth interactions. This project demonstrates API integration, async data handling, state management, error handling, and modern UI design for a portfolio-ready web app.",
     tech: ["Next.js", "OpenWeather API", "Mapbox", "Tailwind CSS"],
-    github: "https://github.com",
-    live: "https://example.com",
+    github: "https://github.com/lemuelraylamela1/Weather-Dashboard",
+    live: "https://weather-dashboard-gamma-lake.vercel.app/",
     featured: false,
   },
   {
