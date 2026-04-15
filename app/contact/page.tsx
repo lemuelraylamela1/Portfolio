@@ -70,7 +70,7 @@ const socialLinks = [
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/lemuel-ray-lamela-81506b22b/",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -78,6 +78,40 @@ const socialLinks = [
         fill="currentColor"
         viewBox="0 0 24 24">
         <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+      </svg>
+    ),
+  },
+
+  // Indeed
+  {
+    name: "Indeed",
+    href: "https://profile.indeed.com/", // replace with your actual profile link
+    icon: (
+      <svg
+        role="img"
+        viewBox="0 0 24 24"
+        className="h-6 w-6"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+        <title>Indeed</title>
+        <path d="M10.566 8.438h2.868v8.994h-2.868zM12 0C5.372 0 0 5.372 0 12c0 6.63 5.372 12 12 12 6.63 0 12-5.37 12-12 0-6.628-5.37-12-12-12zm.434 20.287a3.287 3.287 0 110-6.574 3.287 3.287 0 010 6.574z" />
+      </svg>
+    ),
+  },
+
+  // OnlineJobs.ph
+  {
+    name: "OnlineJobs.ph",
+    href: "https://www.onlinejobs.ph/jobseekers/info/", // replace with your actual profile link
+    icon: (
+      <svg
+        role="img"
+        viewBox="0 0 24 24"
+        className="h-6 w-6"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+        <title>OnlineJobs.ph</title>
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 6.627 5.373 12 12 12 6.627 0 12-5.373 12-12C24 5.373 18.627 0 12 0zm4.8 16.8H7.2V7.2h9.6v9.6z" />
       </svg>
     ),
   },

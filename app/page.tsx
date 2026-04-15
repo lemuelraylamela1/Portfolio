@@ -9,9 +9,13 @@ const skills = [
   "React",
   "Next.js",
   "Node.js",
-  "Informatica Powercenter",
+  "Express",
   "MongoDB",
   "Tailwind CSS",
+  "PostgreSQL",
+  "Git",
+  "Vercel",
+  "JavaScript",
 ];
 
 const featuredProjects = [

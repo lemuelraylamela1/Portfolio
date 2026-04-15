@@ -11,16 +11,6 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    title: "Job Application Tracker",
-    description:
-      "A Job Application Tracker Kanban Board that helps users organize applications across stages like Applied, Interview, and Offer using an intuitive drag-and-drop interface.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
-    github: "https://github.com/lemuelraylamela1/Job-Application-Tracker",
-    live: "https://job-application-tracker-lem.vercel.app/",
-    featured: true,
-    image: "/jat.png",
-  },
-  {
     title: "Wedding Planner App",
     description:
       "A comprehensive tool designed to help couples plan and manage every detail of their wedding day. Organize timelines, track tasks, manage vendors and guests, monitor budgets, and ensure nothing is forgotten — all in one intuitive app. Perfect for keeping your wedding organized, stress-free, and on schedule.",
@@ -41,6 +31,16 @@ const projects = [
     image: "/APS.png",
   },
   {
+    title: "Job Application Tracker",
+    description:
+      "A Job Application Tracker Kanban Board that helps users organize applications across stages like Applied, Interview, and Offer using an intuitive drag-and-drop interface.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
+    github: "https://github.com/lemuelraylamela1/Job-Application-Tracker",
+    live: "https://job-application-tracker-lem.vercel.app/",
+    featured: true,
+    image: "/jat.png",
+  },
+  {
     title: "Task Management App",
     description:
       "Task Manager is a simple web app that demonstrates full CRUD functionality. Users can add, view, update, and delete tasks while learning how a frontend connects to backend APIs and a database in a clean, practical project.",
@@ -59,7 +59,7 @@ const projects = [
     featured: false,
   },
   {
-    title: "Blog Platform",
+    title: "Blog Platform (in progress)",
     description:
       "A modern blogging platform with MDX support, syntax highlighting, and a custom CMS for content management.",
     tech: ["Next.js", "MDX", "Contentlayer", "Tailwind CSS"],
@@ -68,7 +68,7 @@ const projects = [
     featured: false,
   },
   {
-    title: "Fitness Tracker",
+    title: "Fitness Tracker (in progress)",
     description:
       "A comprehensive fitness tracking app with workout logging, progress visualization, and social features for sharing achievements.",
     tech: ["React Native", "Node.js", "MongoDB", "Chart.js"],
@@ -76,7 +76,7 @@ const projects = [
     featured: false,
   },
   {
-    title: "Recipe Finder",
+    title: "Recipe Finder (in progress)",
     description:
       "A recipe discovery app with ingredient-based search, meal planning, and nutritional information powered by external APIs.",
     tech: ["React", "Spoonacular API", "Redux", "SCSS"],

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const experience = [
   {
-    period: "2024 — Present",
+    period: "2024 — 2026",
     role: "Analyst Programmer",
     company: "Sun Life Global Solutions",
     description:
@@ -31,7 +31,14 @@ const experience = [
     company: "Integratr Corp",
     description:
       "Built inhouse Website and goverment website using VueJS and Laravel",
-    tech: ["Vue JS", "Laravel", "Postman", "WordPress(Elementor)", "Bootstrap"],
+    tech: [
+      "Vue JS",
+      "React JS",
+      "Laravel",
+      "Postman",
+      "WordPress(Elementor)",
+      "Bootstrap",
+    ],
   },
   {
     period: "2021 — 2021",
@@ -190,7 +197,7 @@ export default function AboutPage() {
                   <li>React / Next.js</li>
                   <li>TypeScript / JavaScript</li>
                   <li>Tailwind CSS / CSS3</li>
-                  <li>Redux / Zustand</li>
+                  <li>Responsive Design / Accessibility</li>{" "}
                 </ul>
               </div>
 
@@ -201,9 +208,8 @@ export default function AboutPage() {
                 </h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Node.js / Express</li>
-                  <li>Python / Django</li>
-                  <li>PostgreSQL / MongoDB</li>
-                  <li>REST APIs / GraphQL</li>
+                  <li>MongoDB / PostgreSQL</li>
+                  <li>RESTful APIs / GraphQL</li>
                 </ul>
               </div>
 
@@ -214,8 +220,7 @@ export default function AboutPage() {
                 </h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li>Git / GitHub</li>
-                  <li>Docker / Kubernetes</li>
-                  <li>AWS / Vercel</li>
+                  <li>Vercel / Netlify</li>
                   <li>CI/CD Pipelines</li>
                 </ul>
               </div>
