@@ -4,26 +4,32 @@ import { Footer } from "./components/footer";
 import Image from "next/image";
 
 const skills = [
-  "Oracle SQL",
-  "TypeScript",
   "React",
   "Next.js",
+  "Typescript",
   "Node.js",
-  "Express",
+  "NestJS",
+  "Supabase",
+  "Firebase",
   "MongoDB",
   "Tailwind CSS",
   "PostgreSQL",
   "Git",
+  "GitHub",
+  "Jira",
   "Vercel",
-  "JavaScript",
+  "JavaScript ES6+",
+  "HTML5",
+  "CSS3",
+  "Oracle SQL",
 ];
 
 const featuredProjects = [
   {
-    title: "Job Application Tracker",
+    title: "PlanMyDay",
     description:
-      "A Job Application Tracker Kanban Board that helps users organize applications across stages like Applied, Interview, and Offer using an intuitive drag-and-drop interface.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "MongoDB"],
+      "A Day Planner that helps users organize their day-to-day activities and tasks using an intuitive drag-and-drop interface.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
     link: "/projects",
   },
   //  {
@@ -55,42 +61,42 @@ export default function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <main className="pt-24">
-        <section className="relative min-h-[90vh] flex items-center">
+      <main className="pt-20">
+        <section className="relative flex items-center">
           {/* Gradient Background */}
           <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute top-1/4 -left-1/4 w-96 h-96 bg-gradient-to-r from-primary/20 to-[var(--gradient-end)]/20 rounded-full blur-3xl" />
-            <div className="absolute bottom-1/4 -right-1/4 w-96 h-96 bg-gradient-to-r from-[var(--gradient-end)]/20 to-primary/20 rounded-full blur-3xl" />
+            <div className="absolute top-1/4 -left-1/4 w-80 h-80 bg-gradient-to-r from-primary/20 to-[var(--gradient-end)]/20 rounded-full blur-3xl" />
+            <div className="absolute bottom-1/4 -right-1/4 w-80 h-80 bg-gradient-to-r from-[var(--gradient-end)]/20 to-primary/20 rounded-full blur-3xl" />
           </div>
 
-          <div className="relative max-w-6xl mx-auto px-6 py-20">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="space-y-8">
-                <div className="space-y-4">
+          <div className="relative max-w-6xl mx-auto px-6 py-12 md:py-16">
+            <div className="grid lg:grid-cols-2 gap-8 lg:gap-10 items-center">
+              <div className="space-y-5">
+                <div className="space-y-2">
                   <p className="text-primary font-medium">Hi, my name is</p>
-                  <h1 className="text-5xl md:text-7xl font-bold text-balance">
+                  <h1 className="text-4xl md:text-6xl font-bold text-balance">
                     <span className="text-foreground">Lemuel Ray Lamela.</span>
                   </h1>
-                  <h2 className="text-3xl md:text-5xl font-bold text-muted-foreground text-balance">
+                  <h2 className="text-2xl md:text-4xl font-bold text-muted-foreground text-balance">
                     I build things for the web.
                   </h2>
                 </div>
 
-                <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-                  I&apos;m a Web developer specializing in building exceptional
-                  digital experiences. Currently focused on creating accessible,
-                  human-centered products.
+                <p className="text-base md:text-lg text-muted-foreground max-w-lg leading-relaxed">
+                  I&apos;m a Software Engineer specializing in building
+                  exceptional digital experiences. Currently focused on creating
+                  accessible, human-centered products.
                 </p>
 
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-3 pt-1">
                   <Link
                     href="/projects"
-                    className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-gradient-to-r from-primary to-[var(--gradient-end)] text-primary-foreground font-medium hover:opacity-90 transition-opacity">
+                    className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-gradient-to-r from-primary to-[var(--gradient-end)] text-primary-foreground font-medium hover:opacity-90 transition-opacity">
                     View My Work
                   </Link>
                   <Link
                     href="/contact"
-                    className="inline-flex items-center justify-center px-6 py-3 rounded-lg border border-primary text-primary font-medium hover:bg-primary/10 transition-colors">
+                    className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-primary text-primary font-medium hover:bg-primary/10 transition-colors">
                     Get In Touch
                   </Link>
                 </div>
@@ -98,11 +104,11 @@ export default function HomePage() {
 
               {/* Decorative Element */}
               <div className="hidden lg:flex justify-center">
-                <div className="relative w-96 h-96">
+                <div className="relative w-72 h-72 xl:w-80 xl:h-80">
                   <div className="absolute inset-0 bg-gradient-to-r from-primary to-[var(--gradient-end)] rounded-full opacity-20 blur-2xl animate-pulse" />
-                  <div className="absolute inset-4 bg-gradient-to-br from-primary/30 to-[var(--gradient-end)]/30 rounded-full border border-primary/20" />
+                  <div className="absolute inset-3 bg-gradient-to-br from-primary/30 to-[var(--gradient-end)]/30 rounded-full border border-primary/20" />
 
-                  <div className="absolute inset-8 bg-card rounded-full border border-border flex items-center justify-center overflow-hidden">
+                  <div className="absolute inset-6 bg-card rounded-full border border-border flex items-center justify-center overflow-hidden">
                     <Image
                       src="/assets/lem-dp.png"
                       alt="Profile"

@@ -11,14 +11,14 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    title: "Wedding Planner App",
+    title: "PlanMyDay",
     description:
-      "A comprehensive tool designed to help couples plan and manage every detail of their wedding day. Organize timelines, track tasks, manage vendors and guests, monitor budgets, and ensure nothing is forgotten — all in one intuitive app. Perfect for keeping your wedding organized, stress-free, and on schedule.",
-    tech: ["Next JS", "Tailwind CSS", "Typescript", "MongoDB"],
-    github: "https://github.com/lemuelraylamela1/Wedding-Planner-App",
-    live: "https://wedding-planner-app-ph.vercel.app/",
+      "A wedding planning application developed with AI-assisted workflows, featuring scheduling, guest management, and drag-and-drop planning. I handled the application architecture, feature integration, UI refinement, and overall development.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "AI"],
+    github: "https://github.com/lemuelraylamela1/PlanMyDay",
+    live: "https://plan-my-wedding-day.vercel.app/",
     featured: true,
-    image: "/wedding-app.png",
+    image: "/PlanMyDay.png",
   },
   {
     title: "Appointment Booking System",
