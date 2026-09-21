@@ -18,7 +18,7 @@ const projects = [
     github: "https://github.com/lemuelraylamela1/PlanMyDay",
     live: "https://plan-my-wedding-day.vercel.app/",
     featured: true,
-    image: "/PlanMyDay.png",
+    image: "/PlanMyDay-1.png",
   },
   {
     title: "Appointment Booking System",

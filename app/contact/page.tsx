@@ -236,11 +236,12 @@ export default function ContactPage() {
 
                 <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-[var(--gradient-end)]/10 border border-primary/20">
                   <h3 className="font-semibold text-foreground mb-2">
-                    Available for freelance work
+                    Available for new opportunities
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    I&apos;m currently taking on new projects. If you have a
-                    project in mind, let&apos;s talk about how I can help.
+                    I&apos;m currently looking for new opportunities. If you
+                    have a project in mind, let&apos;s talk about how I can
+                    help.
                   </p>
                 </div>
               </div>

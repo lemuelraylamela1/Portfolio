@@ -3,25 +3,35 @@ import { Navigation } from "./components/navigation";
 import { Footer } from "./components/footer";
 import Image from "next/image";
 
-const skills = [
-  "React",
-  "Next.js",
-  "Typescript",
-  "Node.js",
-  "NestJS",
-  "Supabase",
-  "Firebase",
-  "MongoDB",
-  "Tailwind CSS",
-  "PostgreSQL",
-  "Git",
-  "GitHub",
-  "Jira",
-  "Vercel",
-  "JavaScript ES6+",
-  "HTML5",
-  "CSS3",
-  "Oracle SQL",
+const skillGroups = [
+  {
+    category: "Frontend",
+    items: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript ES6+",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    category: "Backend & Data",
+    items: [
+      "Node.js",
+      "NestJS",
+      "MongoDB",
+      "PostgreSQL",
+      "Oracle SQL",
+      "Supabase",
+      "Firebase",
+    ],
+  },
+  {
+    category: "Tools & Platforms",
+    items: ["Git", "GitHub", "Jira", "Vercel"],
+  },
 ];
 
 const featuredProjects = [
@@ -62,63 +72,78 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <main className="pt-20">
-        <section className="relative flex items-center">
-          {/* Gradient Background */}
-          <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute top-1/4 -left-1/4 w-80 h-80 bg-gradient-to-r from-primary/20 to-[var(--gradient-end)]/20 rounded-full blur-3xl" />
-            <div className="absolute bottom-1/4 -right-1/4 w-80 h-80 bg-gradient-to-r from-[var(--gradient-end)]/20 to-primary/20 rounded-full blur-3xl" />
-          </div>
-
-          <div className="relative max-w-6xl mx-auto px-6 py-12 md:py-16">
-            <div className="grid lg:grid-cols-2 gap-8 lg:gap-10 items-center">
-              <div className="space-y-5">
-                <div className="space-y-2">
-                  <p className="text-primary font-medium">Hi, my name is</p>
-                  <h1 className="text-4xl md:text-6xl font-bold text-balance">
-                    <span className="text-foreground">Lemuel Ray Lamela.</span>
-                  </h1>
-                  <h2 className="text-2xl md:text-4xl font-bold text-muted-foreground text-balance">
-                    I build things for the web.
-                  </h2>
+        <section className="relative overflow-hidden">
+          <div className="max-w-6xl mx-auto px-6 py-14 md:py-20">
+            <div className="grid lg:grid-cols-[1.25fr_0.75fr] gap-12 lg:gap-20 items-center">
+              <div>
+                <div className="flex items-center gap-3 mb-8">
+                  <span className="h-px w-10 bg-primary" aria-hidden />
+                  <p className="text-xs font-semibold text-primary uppercase tracking-[0.18em]">
+                    Software Engineer
+                  </p>
                 </div>
 
-                <p className="text-base md:text-lg text-muted-foreground max-w-lg leading-relaxed">
-                  I&apos;m a Software Engineer specializing in building
-                  exceptional digital experiences. Currently focused on creating
-                  accessible, human-centered products.
+                <h1 className="max-w-3xl text-5xl md:text-7xl font-semibold tracking-[-0.04em] leading-[0.95] text-foreground">
+                  Lemuel Ray
+                  <span className="block text-muted-foreground">Lamela.</span>
+                </h1>
+
+                <p className="mt-7 max-w-xl text-xl md:text-2xl leading-snug text-foreground/90 text-balance">
+                  I turn complex problems into clear, dependable web products.
                 </p>
 
-                <div className="flex flex-wrap gap-3 pt-1">
+                <p className="mt-4 max-w-lg text-base leading-relaxed text-muted-foreground">
+                  I build accessible, human-centered applications with thoughtful
+                  interfaces and maintainable code.
+                </p>
+
+                <div className="flex flex-wrap items-center gap-5 mt-8">
                   <Link
                     href="/projects"
-                    className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-gradient-to-r from-primary to-[var(--gradient-end)] text-primary-foreground font-medium hover:opacity-90 transition-opacity">
-                    View My Work
+                    className="group inline-flex items-center gap-3 rounded-md bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90">
+                    Selected work
+                    <svg
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
+                      aria-hidden>
+                      <path
+                        d="M4 10h12m-4-4 4 4-4 4"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
                   </Link>
                   <Link
                     href="/contact"
-                    className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg border border-primary text-primary font-medium hover:bg-primary/10 transition-colors">
-                    Get In Touch
+                    className="inline-flex items-center border-b border-border pb-1 text-sm font-medium text-foreground transition-colors hover:border-primary hover:text-primary">
+                    Let&apos;s work together
                   </Link>
                 </div>
               </div>
 
-              {/* Decorative Element */}
-              <div className="hidden lg:flex justify-center">
-                <div className="relative w-72 h-72 xl:w-80 xl:h-80">
-                  <div className="absolute inset-0 bg-gradient-to-r from-primary to-[var(--gradient-end)] rounded-full opacity-20 blur-2xl animate-pulse" />
-                  <div className="absolute inset-3 bg-gradient-to-br from-primary/30 to-[var(--gradient-end)]/30 rounded-full border border-primary/20" />
-
-                  <div className="absolute inset-6 bg-card rounded-full border border-border flex items-center justify-center overflow-hidden">
-                    <Image
-                      src="/assets/lem-dp.png"
-                      alt="Profile"
-                      fill
-                      className="object-cover"
-                      priority
-                    />
-                  </div>
+              <figure className="relative mx-auto w-full max-w-xs lg:mx-0 lg:justify-self-end">
+                <div
+                  className="absolute -right-3 -top-3 h-full w-full border border-primary/40"
+                  aria-hidden
+                />
+                <div className="relative aspect-4/5 overflow-hidden bg-card">
+                  <Image
+                    src="/assets/lem-dp.png"
+                    alt="Portrait of Lemuel Ray Lamela"
+                    fill
+                    sizes="(min-width: 1024px) 320px, 80vw"
+                    className="object-cover"
+                    priority
+                  />
                 </div>
-              </div>
+                <figcaption className="mt-4 flex items-center justify-between gap-4 text-xs uppercase tracking-[0.14em] text-muted-foreground">
+                  <span>Cavite, Philippines</span>
+                  <span>Portfolio · 2026</span>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </section>
@@ -126,25 +151,43 @@ export default function HomePage() {
         {/* Skills Section */}
         <section className="py-20 border-t border-border/50">
           <div className="max-w-6xl mx-auto px-6">
-            <div className="flex flex-col md:flex-row gap-12">
-              <div className="md:w-1/3">
+            <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)] gap-10 lg:gap-16">
+              <div className="max-w-sm">
                 <h3 className="text-sm font-medium text-primary uppercase tracking-wider mb-2">
                   Skills
                 </h3>
-                <h2 className="text-3xl font-bold text-foreground">
+                <h2 className="text-3xl font-bold text-foreground text-balance">
                   Technologies I work with
                 </h2>
+                <p className="mt-4 text-muted-foreground leading-relaxed">
+                  A focused stack for building reliable, accessible web products
+                  — from interface to infrastructure.
+                </p>
               </div>
-              <div className="md:w-2/3">
-                <div className="flex flex-wrap gap-3">
-                  {skills.map((skill) => (
-                    <span
-                      key={skill}
-                      className="px-4 py-2 rounded-full bg-secondary text-secondary-foreground text-sm font-medium border border-border/50 hover:border-primary/50 transition-colors">
-                      {skill}
-                    </span>
-                  ))}
-                </div>
+
+              <div className="space-y-8">
+                {skillGroups.map((group) => (
+                  <div
+                    key={group.category}
+                    className="grid sm:grid-cols-[8.5rem_1fr] gap-3 sm:gap-6 border-t border-border/60 pt-6 first:border-t-0 first:pt-0">
+                    <h4 className="text-sm font-medium text-muted-foreground tracking-wide">
+                      {group.category}
+                    </h4>
+                    <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-2.5">
+                      {group.items.map((skill) => (
+                        <li
+                          key={skill}
+                          className="flex items-center gap-2 text-sm text-foreground/90">
+                          <span
+                            className="h-1 w-1 shrink-0 rounded-full bg-primary"
+                            aria-hidden
+                          />
+                          {skill}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
